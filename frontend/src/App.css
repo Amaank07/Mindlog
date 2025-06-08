@@ -1,0 +1,8 @@
+.topic:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.topic {
+  border: none;
+}
