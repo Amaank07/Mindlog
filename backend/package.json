@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for our mindlog application ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",  
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaank07/Mindlog.git"
+  },
+  "keywords": [
+    "revise",
+    "study",
+    "ai",
+    "ai-assisted",
+    "learning"
+  ],
+  "author": "Amaan Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amaank07/Mindlog/issues"
+  },
+  "homepage": "https://github.com/Amaank07/Mindlog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
