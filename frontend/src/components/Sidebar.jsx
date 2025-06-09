@@ -26,7 +26,7 @@ const Sidebar = ({ subjects, setSubjects, selectedSubject, setSelectedSubject })
             <li className="flex">
               <input
                 type="text"
-                className="input input-sm input-bordered w-full"
+                className="input input-sm input-bordered w-full mb-2"
                 value={newSubject}
                 onChange={(e) => setNewSubject(e.target.value)}
                 placeholder="New subject..."
